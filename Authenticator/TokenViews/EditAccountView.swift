@@ -46,7 +46,9 @@ struct EditAccountView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel", role: .cancel, action: { isPresented = false })
+                    Button("Cancel", role: .cancel) {
+                        isPresented = false
+                    }
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") {

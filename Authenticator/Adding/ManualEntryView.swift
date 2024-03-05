@@ -74,7 +74,9 @@ struct ManualEntryView: View {
                 }
             }
             .alert("Error", isPresented: $isAlertPresented) {
-                Button("OK", role: .cancel, action: { isAlertPresented.toggle() })
+                Button("OK", role: .cancel) {
+                    isAlertPresented.toggle()
+                }
             } message: {
                 Text("Invalid Key")
             }

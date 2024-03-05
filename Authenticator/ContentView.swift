@@ -33,31 +33,31 @@ struct ContentView: View {
                     Section {
                         CodeCardView(token: token(of: item), totp: $codes[index], timeRemaining: $timeRemaining)
                             .contextMenu {
-                                Button(action: {
+                                Button {
                                     UIPasteboard.general.string = codes[index]
-                                }) {
+                                } label: {
                                     Label("Copy Code", systemImage: "doc.on.doc")
                                 }
-                                Button(action: {
+                                Button {
                                     tokenIndex = index
                                     presentingSheet = .cardDetailView
                                     isSheetPresented = true
-                                }) {
+                                } label: {
                                     Label("View Detail", systemImage: "text.justifyleft")
                                 }
-                                Button(action: {
+                                Button {
                                     tokenIndex = index
                                     presentingSheet = .cardEditing
                                     isSheetPresented = true
-                                }) {
+                                } label: {
                                     Label("Edit Account", systemImage: "square.and.pencil")
                                 }
-                                Button(action: {
+                                Button {
                                     tokenIndex = index
                                     selectedTokens.removeAll()
                                     indexSetOnDelete.removeAll()
                                     isDeletionAlertPresented = true
-                                }) {
+                                } label: {
                                     Label("Delete", systemImage: "trash")
                                 }
                             }
@@ -98,32 +98,32 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     if editMode == .active {
-                        Button(action: {
+                        Button {
                             editMode = .inactive
                             selectedTokens.removeAll()
                             indexSetOnDelete.removeAll()
-                        }) {
+                        } label: {
                             Text("Done")
                         }
                     } else {
                         Menu {
-                            Button(action: {
+                            Button {
                                 selectedTokens.removeAll()
                                 indexSetOnDelete.removeAll()
                                 editMode = .active
-                            }) {
+                            } label: {
                                 Label("Edit", systemImage: "list.bullet")
                             }
-                            Button(action: {
+                            Button {
                                 presentingSheet = .moreExport
                                 isSheetPresented = true
-                            }) {
+                            } label: {
                                 Label("Export", systemImage: "square.and.arrow.up")
                             }
-                            Button(action: {
+                            Button {
                                 presentingSheet = .moreAbout
                                 isSheetPresented = true
-                            }) {
+                            } label: {
                                 Label("About", systemImage: "info.circle")
                             }
                         } label: {
@@ -138,19 +138,19 @@ struct ContentView: View {
                 }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     if editMode == .active {
-                        Button(action: {
+                        Button {
                             if !selectedTokens.isEmpty {
                                 isDeletionAlertPresented = true
                             }
-                        }) {
+                        } label: {
                             Image(systemName: "trash")
                         }
                     } else {
                         #if !targetEnvironment(macCatalyst)
-                            Button(action: {
+                            Button {
                                 presentingSheet = .addByScanning
                                 isSheetPresented = true
-                            }) {
+                            } label: {
                                 Image(systemName: "qrcode.viewfinder")
                                     .resizable()
                                     .scaledToFit()
@@ -161,17 +161,17 @@ struct ContentView: View {
                         #endif
                         Menu {
                             #if !targetEnvironment(macCatalyst)
-                                Button(action: {
+                                Button {
                                     presentingSheet = .addByScanning
                                     isSheetPresented = true
-                                }) {
+                                } label: {
                                     Label("Scan QR Code", systemImage: "qrcode.viewfinder")
                                 }
                             #endif
-                            Button(action: {
+                            Button {
                                 presentingSheet = .addByQRCodeImage
                                 isSheetPresented = true
-                            }) {
+                            } label: {
                                 Label("Import from Photos", systemImage: "photo")
                             }
                             Button {
@@ -183,10 +183,10 @@ struct ContentView: View {
                                     Label("Import from Files", systemImage: "doc.badge.plus")
                                 #endif
                             }
-                            Button(action: {
+                            Button {
                                 presentingSheet = .addByManually
                                 isSheetPresented = true
-                            }) {
+                            } label: {
                                 Label("Enter Manually", systemImage: "text.cursor")
                             }
                         } label: {

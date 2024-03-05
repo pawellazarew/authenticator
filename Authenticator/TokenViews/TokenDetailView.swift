@@ -1,13 +1,12 @@
 import CoreImage.CIFilterBuiltins
 import SwiftUI
 
-private var imageUrl: URL?
-
 struct TokenDetailView: View {
     @Binding var isPresented: Bool
     let token: Token
 
     @State private var isImageActivityViewPresented: Bool = false
+    @State private var imageUrl: URL?
 
     var body: some View {
         NavigationView {
