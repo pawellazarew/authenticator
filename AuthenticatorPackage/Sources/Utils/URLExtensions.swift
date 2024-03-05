@@ -1,7 +1,7 @@
 import UIKit
 import UniformTypeIdentifiers
 
-extension URL {
+public extension URL {
     var readText: String? {
         guard let type: UTType = try? resourceValues(forKeys: [.contentTypeKey]).contentType else { return nil }
         if type.conforms(to: .text) {

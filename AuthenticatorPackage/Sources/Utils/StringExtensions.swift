@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     /// Returns a new string made by removing `.whitespacesAndNewlines` & `.controlCharacters` from both ends of the String.
     /// - Returns: A new string made by removing `.whitespacesAndNewlines` & `.controlCharacters` from both ends of the String.
     var trimmed: String {
@@ -14,7 +14,7 @@ extension String {
     static let zeros: String = "000000"
 }
 
-extension Optional where Wrapped == String {
+public extension Optional where Wrapped == String {
     /// Not nil && not empty
     var hasContent: Bool {
         switch self {

@@ -1,5 +1,6 @@
 import CoreImage.CIFilterBuiltins
 import SwiftUI
+import Utils
 
 struct TokenDetailView: View {
     @Binding var isPresented: Bool
