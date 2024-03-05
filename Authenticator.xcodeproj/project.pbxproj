@@ -13,8 +13,6 @@
 		37AD0317266C8A920086DD10 /* Authenticator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37AD0315266C8A920086DD10 /* Authenticator.xcdatamodeld */; };
 		37AD031C266C8A930086DD10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AD031B266C8A930086DD10 /* Preview Assets.xcassets */; };
 		37AD031F266C8A930086DD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AD031D266C8A930086DD10 /* LaunchScreen.storyboard */; };
-		37AD032A266C8A930086DD10 /* AuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AD0329266C8A930086DD10 /* AuthenticatorTests.swift */; };
-		37AD0335266C8A930086DD10 /* AuthenticatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AD0334266C8A930086DD10 /* AuthenticatorUITests.swift */; };
 		37AD0362266C8CCA0086DD10 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37AD0342266C8CC90086DD10 /* Settings.bundle */; };
 		37AD0363266C8CCA0086DD10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AD0343266C8CCA0086DD10 /* Images.xcassets */; };
 		37AD0364266C8CCA0086DD10 /* MenuCopyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AD0345266C8CCA0086DD10 /* MenuCopyButton.swift */; };
@@ -39,23 +37,6 @@
 		37D98D8E276AE53E00DF37EF /* View+copiedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D98D8D276AE53E00DF37EF /* View+copiedBanner.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		37AD0326266C8A930086DD10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37AD0304266C8A920086DD10 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37AD030B266C8A920086DD10;
-			remoteInfo = Authenticator;
-		};
-		37AD0331266C8A930086DD10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37AD0304266C8A920086DD10 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37AD030B266C8A920086DD10;
-			remoteInfo = Authenticator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		37AD030C266C8A920086DD10 /* Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AD030F266C8A920086DD10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,12 +46,6 @@
 		37AD031B266C8A930086DD10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37AD031E266C8A930086DD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37AD0320266C8A930086DD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37AD0325266C8A930086DD10 /* AuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37AD0329266C8A930086DD10 /* AuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorTests.swift; sourceTree = "<group>"; };
-		37AD032B266C8A930086DD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37AD0330266C8A930086DD10 /* AuthenticatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37AD0334266C8A930086DD10 /* AuthenticatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorUITests.swift; sourceTree = "<group>"; };
-		37AD0336266C8A930086DD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37AD0342266C8CC90086DD10 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		37AD0343266C8CCA0086DD10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37AD0345266C8CCA0086DD10 /* MenuCopyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCopyButton.swift; sourceTree = "<group>"; };
@@ -113,20 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37AD0322266C8A930086DD10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AD032D266C8A930086DD10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				37AD030E266C8A920086DD10 /* Authenticator */,
-				37AD0328266C8A930086DD10 /* AuthenticatorTests */,
-				37AD0333266C8A930086DD10 /* AuthenticatorUITests */,
 				37AD030D266C8A920086DD10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				37AD030C266C8A920086DD10 /* Authenticator.app */,
-				37AD0325266C8A930086DD10 /* AuthenticatorTests.xctest */,
-				37AD0330266C8A930086DD10 /* AuthenticatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,24 +139,6 @@
 				37AD031B266C8A930086DD10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		37AD0328266C8A930086DD10 /* AuthenticatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				37AD0329266C8A930086DD10 /* AuthenticatorTests.swift */,
-				37AD032B266C8A930086DD10 /* Info.plist */,
-			);
-			path = AuthenticatorTests;
-			sourceTree = "<group>";
-		};
-		37AD0333266C8A930086DD10 /* AuthenticatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				37AD0334266C8A930086DD10 /* AuthenticatorUITests.swift */,
-				37AD0336266C8A930086DD10 /* Info.plist */,
-			);
-			path = AuthenticatorUITests;
 			sourceTree = "<group>";
 		};
 		37AD0344266C8CCA0086DD10 /* ViewComponents */ = {
@@ -291,42 +230,6 @@
 			productReference = 37AD030C266C8A920086DD10 /* Authenticator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37AD0324266C8A930086DD10 /* AuthenticatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37AD033C266C8A930086DD10 /* Build configuration list for PBXNativeTarget "AuthenticatorTests" */;
-			buildPhases = (
-				37AD0321266C8A930086DD10 /* Sources */,
-				37AD0322266C8A930086DD10 /* Frameworks */,
-				37AD0323266C8A930086DD10 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37AD0327266C8A930086DD10 /* PBXTargetDependency */,
-			);
-			name = AuthenticatorTests;
-			productName = AuthenticatorTests;
-			productReference = 37AD0325266C8A930086DD10 /* AuthenticatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		37AD032F266C8A930086DD10 /* AuthenticatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37AD033F266C8A930086DD10 /* Build configuration list for PBXNativeTarget "AuthenticatorUITests" */;
-			buildPhases = (
-				37AD032C266C8A930086DD10 /* Sources */,
-				37AD032D266C8A930086DD10 /* Frameworks */,
-				37AD032E266C8A930086DD10 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37AD0332266C8A930086DD10 /* PBXTargetDependency */,
-			);
-			name = AuthenticatorUITests;
-			productName = AuthenticatorUITests;
-			productReference = 37AD0330266C8A930086DD10 /* AuthenticatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,14 +242,6 @@
 				TargetAttributes = {
 					37AD030B266C8A920086DD10 = {
 						CreatedOnToolsVersion = 12.5;
-					};
-					37AD0324266C8A930086DD10 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 37AD030B266C8A920086DD10;
-					};
-					37AD032F266C8A930086DD10 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 37AD030B266C8A920086DD10;
 					};
 				};
 			};
@@ -376,8 +271,6 @@
 			projectRoot = "";
 			targets = (
 				37AD030B266C8A920086DD10 /* Authenticator */,
-				37AD0324266C8A930086DD10 /* AuthenticatorTests */,
-				37AD032F266C8A930086DD10 /* AuthenticatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -394,20 +287,6 @@
 				37AD0377266C8E0E0086DD10 /* Assets.xcassets in Resources */,
 				37AD031F266C8A930086DD10 /* LaunchScreen.storyboard in Resources */,
 				37AD031C266C8A930086DD10 /* Preview Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AD0323266C8A930086DD10 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AD032E266C8A930086DD10 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,36 +320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37AD0321266C8A930086DD10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37AD032A266C8A930086DD10 /* AuthenticatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AD032C266C8A930086DD10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37AD0335266C8A930086DD10 /* AuthenticatorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		37AD0327266C8A930086DD10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37AD030B266C8A920086DD10 /* Authenticator */;
-			targetProxy = 37AD0326266C8A930086DD10 /* PBXContainerItemProxy */;
-		};
-		37AD0332266C8A930086DD10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37AD030B266C8A920086DD10 /* Authenticator */;
-			targetProxy = 37AD0331266C8A930086DD10 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		37AD031D266C8A930086DD10 /* LaunchScreen.storyboard */ = {
@@ -693,86 +543,6 @@
 			};
 			name = Release;
 		};
-		37AD033D266C8A930086DD10 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AuthenticatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.ososo.AuthenticatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authenticator.app/Authenticator";
-			};
-			name = Debug;
-		};
-		37AD033E266C8A930086DD10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AuthenticatorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.ososo.AuthenticatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authenticator.app/Authenticator";
-			};
-			name = Release;
-		};
-		37AD0340266C8A930086DD10 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AuthenticatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.ososo.AuthenticatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Authenticator;
-			};
-			name = Debug;
-		};
-		37AD0341266C8A930086DD10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AuthenticatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.ososo.AuthenticatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Authenticator;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -790,24 +560,6 @@
 			buildConfigurations = (
 				37AD033A266C8A930086DD10 /* Debug */,
 				37AD033B266C8A930086DD10 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37AD033C266C8A930086DD10 /* Build configuration list for PBXNativeTarget "AuthenticatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37AD033D266C8A930086DD10 /* Debug */,
-				37AD033E266C8A930086DD10 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37AD033F266C8A930086DD10 /* Build configuration list for PBXNativeTarget "AuthenticatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37AD0340266C8A930086DD10 /* Debug */,
-				37AD0341266C8A930086DD10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
